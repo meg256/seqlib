@@ -1,0 +1,1 @@
+Messy package containing the custom functions for fasta handling, file conversion, etc that I've accumulated over the years. In the near future I am planning to clean this up with custom classes, error handling, and logging.
