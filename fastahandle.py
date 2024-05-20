@@ -45,8 +45,8 @@ Reads in fasta file as dictionary in format dict[header] = seq
     if not fasta_check(filepath): return TypeError("Filepath does not lead to valid fasta file")
 
     try:
-        with open(filepath, "r"):
-            sequences = fasta.read()
+        with open(filepath, "r") as infi:
+            sequences = infi.read()
     except:
         return TypeError("Fasta file cannot be opened")
     else:
