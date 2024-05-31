@@ -9,7 +9,7 @@ from Collections import Counter
 
 def fasta_check(filepath):
 """
-Checks to see if filepath exists. Checks if extension is valid. Checks four conditions:
+Checks FIVE conditions:
     1. File has valid extension
     2. Filepath exists and can be opened
     3. All headers start with ">"
